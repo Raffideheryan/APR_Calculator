@@ -7,11 +7,13 @@ Calculates the APR based on the head slot and other network parameters.
 Simple to configure: users only need to update URLs for their specific blockchain environment.
 
 How It Works
+
 The program connects to the specified beacon node endpoint and retrieves the necessary data (such as the head slot or validator performance).
 It processes the data to calculate the APR for validators in the network.
 The output provides an accurate APR, helping users evaluate validator performance and network efficiency.
 
 Configuration
+
 Open the program file.
 Locate the following two placeholders:
 Blockchain URL: The base URL for your beacon node API.
