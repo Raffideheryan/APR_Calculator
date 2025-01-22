@@ -20,7 +20,7 @@ Blockchain URL: The base URL for your beacon node API.
 Head Slot URL: The specific API endpoint to fetch the head slot (usually /eth/v1/beacon/headers).
 Replace these URLs with the appropriate values for your blockchain network.
 
-Running the Program
+Running the Program 
 1)go build -o apr-calculator
 2)./apr-calculator
 
