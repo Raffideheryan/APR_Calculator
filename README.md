@@ -1,2 +1,24 @@
 # APR_Calculator
-An APR (Annual Percentage Rate) calculator per year program is a tool that helps calculate the effective annual interest rate for loans, investments, or deposits. It accounts for all accrued interest, fees, and other costs, providing a clear understanding of the total cost or return over a year. Users typically input details such as the loan or investment amount, nominal interest rate, duration, additional fees, and payment frequency. The program processes these inputs and outputs the effective APR, which allows for accurate comparison between financial offers or investment options. It is widely used by individuals and businesses to make informed financial decisions.
+This program calculates the Annual Percentage Rate (APR) for blockchain validators based on data retrieved from a beacon node. It automates the process by fetching necessary data from blockchain endpoints and performing calculations to determine the APR.
+
+Features
+Fetches data from the provided blockchain URLs.
+Calculates the APR based on the head slot and other network parameters.
+Simple to configure: users only need to update URLs for their specific blockchain environment.
+
+How It Works
+The program connects to the specified beacon node endpoint and retrieves the necessary data (such as the head slot or validator performance).
+It processes the data to calculate the APR for validators in the network.
+The output provides an accurate APR, helping users evaluate validator performance and network efficiency.
+
+Configuration
+Open the program file.
+Locate the following two placeholders:
+Blockchain URL: The base URL for your beacon node API.
+Head Slot URL: The specific API endpoint to fetch the head slot (usually /eth/v1/beacon/headers).
+Replace these URLs with the appropriate values for your blockchain network.
+
+Running the Program
+1)go build -o apr-calculator
+2)./apr-calculator
+
